@@ -203,7 +203,7 @@ class WeiboSpider(object):
                     self.browser.click_link_by_text('下一页')
                     page_index += 1
 
-                except NotImplementedError:
+                except ElementDoesNotExist:
                     break
 
             except KeyboardInterrupt:
