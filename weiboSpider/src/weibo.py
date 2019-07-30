@@ -13,10 +13,10 @@ from splinter.exceptions import ElementDoesNotExist
 
 class Utils:
     @staticmethod
-	"""
-	用户格式化传入的时间字符串
-	"""
     def get_date(str_time):
+        """
+        用户格式化传入的时间字符串
+        """
         str_time = str_time.strip().replace(' ', '')
 
         if '今天' in str_time or '分钟前' in str_time or '秒前' in str_time:
@@ -33,9 +33,9 @@ class Utils:
 
     @staticmethod
     def get_num(string):
-	"""
-	用户获取评论数、点赞数等
-	"""
+        """
+        用户获取评论数、点赞数等
+        """
         number = re.findall(r"(\d+)", string)
         if number:
             return number[0]
@@ -100,14 +100,15 @@ class WeiboSpider(object):
         return self.search_url.format(
             keyword=self.keyword, start_time=self.start_time, end_time=self.end_time)
 
-    def login(self):  
-		"""
-		用于登录微博
-		"""
+    def login(self):
+        """
+        用于登录微博
+        """
+
         self.browser.visit(self.base_url)  # 访问微博搜索页面
         self.browser.click_link_by_text('登录')  # 点击登录
 
-		# 填充用户名的密码
+        # 填充用户名的密码
         if self.username is not None:
             self.browser.fill("username", self.username)
         if self.password is not None:
@@ -131,17 +132,18 @@ class WeiboSpider(object):
         print("已成功登录，开始抓取信息.......")
 
     def search(self):
-		"""
-		通过构造的搜索 url，跳转到搜索结果页面
-		"""
+        """
+        通过构造的搜索 url，跳转到搜索结果页面
+        """
+
         self.browser.visit(self.get_search_url())
 
     def get_card_data(self, card, xapth_dict: dict):
-		"""
-		用户获取每一篇博客的信息
-		"""
-		
-        etree_html = etree.HTML(card.html) 
+        """
+        用户获取每一篇博客的信息
+        """
+
+        etree_html = etree.HTML(card.html)
         number = ['收藏数', '转发数', '评论数', '点赞数']
 
         self.page_count += 1  # 统计每一页抓取的数据量
@@ -179,13 +181,13 @@ class WeiboSpider(object):
         except ElementDoesNotExist:
             pass
 
-		# 基于设置的休眠时间，随机设置一个休眠值
+        # 基于设置的休眠时间，随机设置一个休眠值
         sleep_time = random.randint(self.sleep_time, self.sleep_time + 7)
 
         page_index = 1  # 记录页码
         while page_index <= 50:  # 微博搜索结果最多为50页
-		
-			# 获取真实的页码
+
+            # 获取真实的页码
             try:
                 # 微博搜索结果有时候一直点击下一页，到了最后一页会跳转到第一页
                 # 这段代码用于防止出现这种情况
@@ -231,14 +233,15 @@ class WeiboSpider(object):
                 break
 
     def save(self):
-		"""
-		保存数据
-		"""
+        """
+        保存数据
+        """
+
         print('--------------------------------------------')
         print('本次共抓取了%s条数据' % self.all_count)
 
         try:
-            data = pandas.DataFrame(self.save_data)  
+            data = pandas.DataFrame(self.save_data)
             file_path = self.base_sava_path + self.save_file_name + '.xlsx'
 
             data.to_excel(file_path, index=False)  # 将数据保存到 excel
@@ -250,12 +253,13 @@ class WeiboSpider(object):
 
     def close(self):
         self.browser.quit()  # 关闭浏览器
- 
+
     @staticmethod
     def test():
-		"""
-		用于测试的方法，实际运行时不执行
-		"""
+        """
+        用于测试的方法，实际运行时不执行
+        """
+
         browser = Browser(executable_path="../driver/firefox.exe")
         browser.visit(
             "https://s.weibo.com/weibo/%25E5%25B0%25B1%25E5%25"
@@ -270,9 +274,10 @@ class WeiboSpider(object):
 
 
 def main():
-	"""
-	程序运行入口
-	"""
+    """
+    程序运行入口
+    """
+
     print('-----微博数据爬虫-------', end='\n\n')
 
     # 修改为微博登录信息时，登录时可以自动填充
@@ -281,6 +286,7 @@ def main():
 
     key_word = input('请输入搜索关键字（输入q退出）：')
     if key_word == 'q':
+        print("正在退出....")
         sys.exit(0)
 
     strat_time = input('请输入开始时间（如2017-12-12）：')
@@ -305,8 +311,8 @@ def main():
 
         key_word = input('请输入搜索关键字（输入q退出）：')
         if key_word == 'q':
-            weibo.close()
-            sys.exit(0)
+            print("正在退出......")
+            break
 
         start_time = input('请输入开始时间（如2017-12-12）：')
         end_time = input('请输入结束时间，不输入默认为直至今日（如2017-12-12）：')
@@ -315,6 +321,7 @@ def main():
         weibo.keyword = key_word
         weibo.start_time = start_time
         weibo.end_time = end_time
+    weibo.close()
 
 
 if __name__ == '__main__':
