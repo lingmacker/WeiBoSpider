@@ -20,7 +20,7 @@
 
    -  cmd 运行实例
 
-     ![weibospider1](https://github.com/lingmacker/Graph-bed/blob/master/weibospider1.png)
+     ![weibospider1](<https://github.com/lingmacker/Graph-bed/blob/master/weibospider1.png>)
 
    - 运行结果截图
 
