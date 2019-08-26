@@ -73,29 +73,31 @@ class WeiboSpider(object):
     def __init__(self, keyword, start_time, end_time, sleep_time=10, username=None, password=None):
         self.username = username  # 微博用户名
         self.password = password  # 微博密码
-        self.driver_path = "../driver/firefoxdriver.exe"  # 打开浏览器的驱动
+
+        self.browser = None
         self.browser_name = "firefox"  # 浏览器名
-        self.base_url = "https://s.weibo.com/"  # 微博搜索的url
+        self.driver_path = "../driver/firefoxdriver.exe"  # 打开浏览器的驱动
+
+        self.base_url = "https://s.weibo.com/"  # 微博搜索主页
+        self.search_url = 'https://s.weibo.com/weibo/{keyword}' \
+                          '&timescope=custom:{start_time}:{end_time}&refer=g'  # 搜索结果的url
         self.keyword = keyword  # 搜索关键字
         self.sleep_time = sleep_time  # 点击下一页的时间间隔
-        self.browser = Browser(driver_name=self.browser_name, executable_path=self.driver_path,
-                               service_log_path='../files/log.log')  # 打开浏览器
         self.start_time = start_time  # 搜索内容的起始时间
         self.end_time = end_time  # 搜索内容的结束时间
-        self.search_url = 'https://s.weibo.com/weibo/{keyword}&timescope=custom:{start_time}:{end_time}'  # 搜索结果的url
 
         self.base_sava_path = '../files/'  # 输出文件的保存路径
-        self.save_file_name = self.keyword + datetime.now().strftime("-%Y-%m-%d")  # 输出文件名
+        self.save_file_name = self.keyword + self.start_time + "~" + self.end_time  # 输出文件名
 
-    def init_date(self, start_time, end_time):  # 构造搜索的起止时间
-        self.start_time = start_time
+    def refactor_date(self, start_time, end_time):  # 构造搜索的起止时间
+        self.start_time = datetime.strptime(start_time, "%Y-%m-%d-%H").strftime("%Y-%m-%d-%H")
         if end_time:
-            self.end_time = end_time
+            self.end_time = datetime.strptime(end_time, "%Y-%m-%d-%H").strftime("%Y-%m-%d-%H")
         else:
-            self.end_time = datetime.now().strftime('%Y-%m-%d')
+            self.end_time = datetime.now().strftime('%Y-%m-%d-%H')
 
     def get_search_url(self):  # 构造搜索url
-        self.init_date(self.start_time, self.end_time)
+        self.refactor_date(self.start_time, self.end_time)  # 将输入的时间重构成搜索用的标准参数
 
         return self.search_url.format(
             keyword=self.keyword, start_time=self.start_time, end_time=self.end_time)
@@ -104,6 +106,8 @@ class WeiboSpider(object):
         """
         用于登录微博
         """
+        self.browser = Browser(driver_name=self.browser_name, executable_path=self.driver_path,
+                               service_log_path='../files/log.log')  # 打开浏览器
 
         self.browser.visit(self.base_url)  # 访问微博搜索页面
         self.browser.click_link_by_text('登录')  # 点击登录
@@ -181,9 +185,6 @@ class WeiboSpider(object):
         except ElementDoesNotExist:
             pass
 
-        # 基于设置的休眠时间，随机设置一个休眠值
-        sleep_time = random.randint(self.sleep_time, self.sleep_time + 7)
-
         page_index = 1  # 记录页码
         while page_index <= 50:  # 微博搜索结果最多为50页
 
@@ -219,6 +220,9 @@ class WeiboSpider(object):
                 self.all_count += self.page_count  # 统计获取的所有数据量
                 self.page_count = 0
 
+                # 基于设置的休眠时间，随机设置一个休眠值
+                sleep_time = random.randint(self.sleep_time, self.sleep_time + 7)
+
                 time.sleep(sleep_time)  # 模拟用户浏览网页的时间
 
                 try:
@@ -247,7 +251,7 @@ class WeiboSpider(object):
             data.to_excel(file_path, index=False)  # 将数据保存到 excel
             print('文件正在保存...', end='\n\n')
 
-        except ValueError as e:
+        except Exception as e:
             print('文件保存失败！！！', end='\n\n')
             print(e)
 
@@ -314,8 +318,8 @@ def main():
             print("正在退出......")
             break
 
-        start_time = input('请输入开始时间（如2017-12-12）：')
-        end_time = input('请输入结束时间，不输入默认为直至今日（如2017-12-12）：')
+        start_time = input('请输入开始时间（如2017-12-12-8 年-月-日-小时）：')
+        end_time = input('请输入结束时间，不输入默认为直至现在（如2017-12-12-8 年-月-日-小时）：')
 
         print('爬取数据正在开始.......')
         weibo.keyword = key_word

@@ -1,0 +1,1624 @@
+[1566818083.477][INFO]: Starting ChromeDriver 76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024})
+[1566818083.477][INFO]: Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+[1566818083.919][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND InitSession {
+   "capabilities": {
+      "alwaysMatch": {
+         "browserName": "chrome",
+         "goog:chromeOptions": {
+            "args": [  ],
+            "extensions": [  ]
+         },
+         "platformName": "any"
+      },
+      "firstMatch": [ {
+
+      } ]
+   },
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "goog:chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[1566818083.926][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[1566818083.928][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[1566818083.941][INFO]: Launching chrome: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --enable-automation --enable-blink-features=ShadowDOMV0 --enable-logging --force-fieldtrials=SiteIsolationExtensions/Control --ignore-certificate-errors --load-extension="C:\Users\LINGMA~1\AppData\Local\Temp\scoped_dir19220_1161482789\internal" --log-level=0 --no-first-run --password-store=basic --remote-debugging-port=0 --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\LINGMA~1\AppData\Local\Temp\scoped_dir19220_1741132960" data:,
+[1566818084.685][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1566818086.666][WARNING]: Timed out connecting to Chrome, retrying...
+[1566818086.667][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[1566818088.684][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE InitSession {
+   "capabilities": {
+      "acceptInsecureCerts": false,
+      "browserName": "chrome",
+      "browserVersion": "76.0.3809.100",
+      "chrome": {
+         "chromedriverVersion": "76.0.3809.126 (d80a294506b4c9d18015e755cee48f953ddc3f2f-refs/branch-heads/3809@{#1024})",
+         "userDataDir": "C:\\Users\\LINGMA~1\\AppData\\Local\\Temp\\scoped_dir19220_1741132960"
+      },
+      "goog:chromeOptions": {
+         "debuggerAddress": "localhost:4288"
+      },
+      "networkConnectionEnabled": false,
+      "pageLoadStrategy": "normal",
+      "platformName": "windows nt",
+      "proxy": {
+
+      },
+      "setWindowRect": true,
+      "strictFileInteractability": false,
+      "timeouts": {
+         "implicit": 0,
+         "pageLoad": 300000,
+         "script": 30000
+      },
+      "unhandledPromptBehavior": "dismiss and notify"
+   },
+   "sessionId": "eb5ff3e33e1fe64bb8fe2cfff573f1fe"
+}
+[1566818088.686][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND Navigate {
+   "url": "https://s.weibo.com/"
+}
+[1566818088.686][INFO]: Waiting for pending navigations...
+[1566818088.695][INFO]: Done waiting for pending navigations. Status: ok
+[1566818089.567][INFO]: Waiting for pending navigations...
+[1566818092.892][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.892][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE Navigate
+[1566818092.893][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818092.893][INFO]: Waiting for pending navigations...
+[1566818092.894][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.911][INFO]: Waiting for pending navigations...
+[1566818092.913][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.913][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818092.915][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818092.915][INFO]: Waiting for pending navigations...
+[1566818092.916][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.925][INFO]: Waiting for pending navigations...
+[1566818092.926][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.926][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818092.928][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818092.928][INFO]: Waiting for pending navigations...
+[1566818092.929][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.936][INFO]: Waiting for pending navigations...
+[1566818092.938][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.938][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818092.939][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818092.939][INFO]: Waiting for pending navigations...
+[1566818092.940][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.947][INFO]: Waiting for pending navigations...
+[1566818092.948][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.948][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818092.950][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818092.950][INFO]: Waiting for pending navigations...
+[1566818092.951][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.958][INFO]: Waiting for pending navigations...
+[1566818092.959][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.959][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818092.960][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818092.960][INFO]: Waiting for pending navigations...
+[1566818092.961][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.967][INFO]: Waiting for pending navigations...
+[1566818092.968][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.968][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818092.970][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818092.970][INFO]: Waiting for pending navigations...
+[1566818092.971][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.978][INFO]: Waiting for pending navigations...
+[1566818092.978][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.978][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818092.980][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818092.980][INFO]: Waiting for pending navigations...
+[1566818092.981][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.988][INFO]: Waiting for pending navigations...
+[1566818092.989][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.989][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818092.991][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818092.991][INFO]: Waiting for pending navigations...
+[1566818092.992][INFO]: Done waiting for pending navigations. Status: ok
+[1566818092.999][INFO]: Waiting for pending navigations...
+[1566818093.000][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.000][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.002][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.002][INFO]: Waiting for pending navigations...
+[1566818093.003][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.011][INFO]: Waiting for pending navigations...
+[1566818093.012][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.012][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.015][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.015][INFO]: Waiting for pending navigations...
+[1566818093.016][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.025][INFO]: Waiting for pending navigations...
+[1566818093.026][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.026][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.029][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.029][INFO]: Waiting for pending navigations...
+[1566818093.030][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.039][INFO]: Waiting for pending navigations...
+[1566818093.039][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.039][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.042][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.042][INFO]: Waiting for pending navigations...
+[1566818093.043][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.051][INFO]: Waiting for pending navigations...
+[1566818093.052][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.053][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.055][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.055][INFO]: Waiting for pending navigations...
+[1566818093.056][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.065][INFO]: Waiting for pending navigations...
+[1566818093.066][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.066][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.068][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.068][INFO]: Waiting for pending navigations...
+[1566818093.068][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.077][INFO]: Waiting for pending navigations...
+[1566818093.078][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.078][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.080][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.080][INFO]: Waiting for pending navigations...
+[1566818093.081][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.090][INFO]: Waiting for pending navigations...
+[1566818093.091][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.091][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.093][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.093][INFO]: Waiting for pending navigations...
+[1566818093.094][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.102][INFO]: Waiting for pending navigations...
+[1566818093.104][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.104][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.106][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.106][INFO]: Waiting for pending navigations...
+[1566818093.107][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.116][INFO]: Waiting for pending navigations...
+[1566818093.118][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.118][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.120][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.120][INFO]: Waiting for pending navigations...
+[1566818093.121][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.129][INFO]: Waiting for pending navigations...
+[1566818093.130][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.130][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.132][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.132][INFO]: Waiting for pending navigations...
+[1566818093.133][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.141][INFO]: Waiting for pending navigations...
+[1566818093.142][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.142][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.145][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.145][INFO]: Waiting for pending navigations...
+[1566818093.146][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.155][INFO]: Waiting for pending navigations...
+[1566818093.156][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.156][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.158][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.158][INFO]: Waiting for pending navigations...
+[1566818093.159][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.167][INFO]: Waiting for pending navigations...
+[1566818093.168][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.168][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.171][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.171][INFO]: Waiting for pending navigations...
+[1566818093.172][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.179][INFO]: Waiting for pending navigations...
+[1566818093.180][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.180][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.182][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.183][INFO]: Waiting for pending navigations...
+[1566818093.184][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.191][INFO]: Waiting for pending navigations...
+[1566818093.192][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.192][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.194][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.194][INFO]: Waiting for pending navigations...
+[1566818093.195][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.202][INFO]: Waiting for pending navigations...
+[1566818093.203][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.203][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.204][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.204][INFO]: Waiting for pending navigations...
+[1566818093.205][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.213][INFO]: Waiting for pending navigations...
+[1566818093.214][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.214][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.216][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.216][INFO]: Waiting for pending navigations...
+[1566818093.216][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.224][INFO]: Waiting for pending navigations...
+[1566818093.225][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.225][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.228][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.228][INFO]: Waiting for pending navigations...
+[1566818093.228][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.236][INFO]: Waiting for pending navigations...
+[1566818093.238][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.238][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.240][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.240][INFO]: Waiting for pending navigations...
+[1566818093.240][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.248][INFO]: Waiting for pending navigations...
+[1566818093.249][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.249][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.251][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.251][INFO]: Waiting for pending navigations...
+[1566818093.252][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.259][INFO]: Waiting for pending navigations...
+[1566818093.261][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.261][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.262][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.262][INFO]: Waiting for pending navigations...
+[1566818093.263][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.271][INFO]: Waiting for pending navigations...
+[1566818093.272][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.272][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.274][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.274][INFO]: Waiting for pending navigations...
+[1566818093.275][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.283][INFO]: Waiting for pending navigations...
+[1566818093.284][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.284][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.286][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.287][INFO]: Waiting for pending navigations...
+[1566818093.288][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.295][INFO]: Waiting for pending navigations...
+[1566818093.296][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.296][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.299][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.299][INFO]: Waiting for pending navigations...
+[1566818093.300][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.308][INFO]: Waiting for pending navigations...
+[1566818093.308][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.309][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.310][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.311][INFO]: Waiting for pending navigations...
+[1566818093.311][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.320][INFO]: Waiting for pending navigations...
+[1566818093.321][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.321][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.323][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.323][INFO]: Waiting for pending navigations...
+[1566818093.324][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.331][INFO]: Waiting for pending navigations...
+[1566818093.332][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.333][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.335][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.335][INFO]: Waiting for pending navigations...
+[1566818093.336][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.343][INFO]: Waiting for pending navigations...
+[1566818093.344][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.344][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.347][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.347][INFO]: Waiting for pending navigations...
+[1566818093.348][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.357][INFO]: Waiting for pending navigations...
+[1566818093.358][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.358][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.360][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.360][INFO]: Waiting for pending navigations...
+[1566818093.361][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.369][INFO]: Waiting for pending navigations...
+[1566818093.369][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.369][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.371][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.371][INFO]: Waiting for pending navigations...
+[1566818093.372][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.380][INFO]: Waiting for pending navigations...
+[1566818093.381][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.381][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.384][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.384][INFO]: Waiting for pending navigations...
+[1566818093.385][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.393][INFO]: Waiting for pending navigations...
+[1566818093.393][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.394][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.396][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.396][INFO]: Waiting for pending navigations...
+[1566818093.397][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.405][INFO]: Waiting for pending navigations...
+[1566818093.406][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.406][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.409][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.409][INFO]: Waiting for pending navigations...
+[1566818093.410][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.418][INFO]: Waiting for pending navigations...
+[1566818093.419][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.419][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.421][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.421][INFO]: Waiting for pending navigations...
+[1566818093.422][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.430][INFO]: Waiting for pending navigations...
+[1566818093.431][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.431][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.434][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.434][INFO]: Waiting for pending navigations...
+[1566818093.434][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.442][INFO]: Waiting for pending navigations...
+[1566818093.443][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.443][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.446][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.446][INFO]: Waiting for pending navigations...
+[1566818093.447][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.456][INFO]: Waiting for pending navigations...
+[1566818093.457][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.457][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.460][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.460][INFO]: Waiting for pending navigations...
+[1566818093.460][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.470][INFO]: Waiting for pending navigations...
+[1566818093.470][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.471][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.473][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.473][INFO]: Waiting for pending navigations...
+[1566818093.474][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.481][INFO]: Waiting for pending navigations...
+[1566818093.483][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.483][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.485][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.485][INFO]: Waiting for pending navigations...
+[1566818093.486][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.494][INFO]: Waiting for pending navigations...
+[1566818093.495][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.495][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.497][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.497][INFO]: Waiting for pending navigations...
+[1566818093.498][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.505][INFO]: Waiting for pending navigations...
+[1566818093.506][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.506][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.508][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.508][INFO]: Waiting for pending navigations...
+[1566818093.509][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.516][INFO]: Waiting for pending navigations...
+[1566818093.517][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.518][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.519][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.519][INFO]: Waiting for pending navigations...
+[1566818093.521][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.529][INFO]: Waiting for pending navigations...
+[1566818093.529][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.530][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.531][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.531][INFO]: Waiting for pending navigations...
+[1566818093.533][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.541][INFO]: Waiting for pending navigations...
+[1566818093.541][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.542][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.544][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.544][INFO]: Waiting for pending navigations...
+[1566818093.546][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.559][INFO]: Waiting for pending navigations...
+[1566818093.561][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.561][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.563][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.563][INFO]: Waiting for pending navigations...
+[1566818093.564][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.572][INFO]: Waiting for pending navigations...
+[1566818093.573][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.573][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.575][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.575][INFO]: Waiting for pending navigations...
+[1566818093.576][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.585][INFO]: Waiting for pending navigations...
+[1566818093.586][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.586][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.588][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.588][INFO]: Waiting for pending navigations...
+[1566818093.589][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.598][INFO]: Waiting for pending navigations...
+[1566818093.599][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.599][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.602][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.602][INFO]: Waiting for pending navigations...
+[1566818093.603][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.612][INFO]: Waiting for pending navigations...
+[1566818093.613][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.613][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.616][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.616][INFO]: Waiting for pending navigations...
+[1566818093.617][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.627][INFO]: Waiting for pending navigations...
+[1566818093.628][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.628][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.631][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.631][INFO]: Waiting for pending navigations...
+[1566818093.632][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.640][INFO]: Waiting for pending navigations...
+[1566818093.642][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.642][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.644][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.644][INFO]: Waiting for pending navigations...
+[1566818093.645][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.652][INFO]: Waiting for pending navigations...
+[1566818093.653][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.653][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.655][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.655][INFO]: Waiting for pending navigations...
+[1566818093.656][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.663][INFO]: Waiting for pending navigations...
+[1566818093.664][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.664][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.667][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.667][INFO]: Waiting for pending navigations...
+[1566818093.668][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.677][INFO]: Waiting for pending navigations...
+[1566818093.678][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.678][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.680][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.680][INFO]: Waiting for pending navigations...
+[1566818093.681][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.690][INFO]: Waiting for pending navigations...
+[1566818093.691][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.691][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.694][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.694][INFO]: Waiting for pending navigations...
+[1566818093.695][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.704][INFO]: Waiting for pending navigations...
+[1566818093.705][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.705][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.708][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.708][INFO]: Waiting for pending navigations...
+[1566818093.709][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.719][INFO]: Waiting for pending navigations...
+[1566818093.720][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.720][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.722][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.722][INFO]: Waiting for pending navigations...
+[1566818093.723][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.732][INFO]: Waiting for pending navigations...
+[1566818093.733][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.733][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.736][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.736][INFO]: Waiting for pending navigations...
+[1566818093.737][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.745][INFO]: Waiting for pending navigations...
+[1566818093.748][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.748][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.750][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.750][INFO]: Waiting for pending navigations...
+[1566818093.751][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.762][INFO]: Waiting for pending navigations...
+[1566818093.764][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.764][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.767][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.767][INFO]: Waiting for pending navigations...
+[1566818093.768][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.777][INFO]: Waiting for pending navigations...
+[1566818093.781][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.781][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.784][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.784][INFO]: Waiting for pending navigations...
+[1566818093.785][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.794][INFO]: Waiting for pending navigations...
+[1566818093.795][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.795][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.798][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.798][INFO]: Waiting for pending navigations...
+[1566818093.800][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.809][INFO]: Waiting for pending navigations...
+[1566818093.810][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.810][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.813][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.813][INFO]: Waiting for pending navigations...
+[1566818093.814][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.822][INFO]: Waiting for pending navigations...
+[1566818093.823][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.823][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.826][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.826][INFO]: Waiting for pending navigations...
+[1566818093.827][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.835][INFO]: Waiting for pending navigations...
+[1566818093.836][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.836][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.839][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.839][INFO]: Waiting for pending navigations...
+[1566818093.840][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.849][INFO]: Waiting for pending navigations...
+[1566818093.850][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.850][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.853][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.853][INFO]: Waiting for pending navigations...
+[1566818093.854][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.864][INFO]: Waiting for pending navigations...
+[1566818093.865][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.865][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.867][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.868][INFO]: Waiting for pending navigations...
+[1566818093.868][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.877][INFO]: Waiting for pending navigations...
+[1566818093.879][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.879][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.881][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.881][INFO]: Waiting for pending navigations...
+[1566818093.882][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.891][INFO]: Waiting for pending navigations...
+[1566818093.892][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.892][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.895][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.895][INFO]: Waiting for pending navigations...
+[1566818093.896][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.905][INFO]: Waiting for pending navigations...
+[1566818093.906][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.906][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.908][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.908][INFO]: Waiting for pending navigations...
+[1566818093.909][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.918][INFO]: Waiting for pending navigations...
+[1566818093.919][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.919][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.922][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.922][INFO]: Waiting for pending navigations...
+[1566818093.923][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.933][INFO]: Waiting for pending navigations...
+[1566818093.934][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.934][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.936][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.936][INFO]: Waiting for pending navigations...
+[1566818093.938][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.948][INFO]: Waiting for pending navigations...
+[1566818093.949][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.949][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.951][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.951][INFO]: Waiting for pending navigations...
+[1566818093.952][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.962][INFO]: Waiting for pending navigations...
+[1566818093.962][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.962][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.965][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.965][INFO]: Waiting for pending navigations...
+[1566818093.966][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.975][INFO]: Waiting for pending navigations...
+[1566818093.976][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.977][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.979][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.979][INFO]: Waiting for pending navigations...
+[1566818093.980][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.988][INFO]: Waiting for pending navigations...
+[1566818093.989][INFO]: Done waiting for pending navigations. Status: ok
+[1566818093.989][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818093.991][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818093.991][INFO]: Waiting for pending navigations...
+[1566818093.992][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.001][INFO]: Waiting for pending navigations...
+[1566818094.002][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.002][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.004][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.004][INFO]: Waiting for pending navigations...
+[1566818094.005][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.014][INFO]: Waiting for pending navigations...
+[1566818094.016][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.016][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.019][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.019][INFO]: Waiting for pending navigations...
+[1566818094.020][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.030][INFO]: Waiting for pending navigations...
+[1566818094.031][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.031][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.033][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.033][INFO]: Waiting for pending navigations...
+[1566818094.034][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.044][INFO]: Waiting for pending navigations...
+[1566818094.045][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.045][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.047][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.047][INFO]: Waiting for pending navigations...
+[1566818094.048][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.058][INFO]: Waiting for pending navigations...
+[1566818094.059][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.059][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.062][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.062][INFO]: Waiting for pending navigations...
+[1566818094.063][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.073][INFO]: Waiting for pending navigations...
+[1566818094.075][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.075][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.077][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.077][INFO]: Waiting for pending navigations...
+[1566818094.078][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.089][INFO]: Waiting for pending navigations...
+[1566818094.090][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.090][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.093][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.093][INFO]: Waiting for pending navigations...
+[1566818094.094][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.105][INFO]: Waiting for pending navigations...
+[1566818094.107][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.107][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.109][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.109][INFO]: Waiting for pending navigations...
+[1566818094.110][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.120][INFO]: Waiting for pending navigations...
+[1566818094.122][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.122][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.123][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.123][INFO]: Waiting for pending navigations...
+[1566818094.125][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.134][INFO]: Waiting for pending navigations...
+[1566818094.136][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.136][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.139][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.139][INFO]: Waiting for pending navigations...
+[1566818094.140][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.148][INFO]: Waiting for pending navigations...
+[1566818094.149][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.149][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.151][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.151][INFO]: Waiting for pending navigations...
+[1566818094.152][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.160][INFO]: Waiting for pending navigations...
+[1566818094.161][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.161][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.164][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.164][INFO]: Waiting for pending navigations...
+[1566818094.165][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.174][INFO]: Waiting for pending navigations...
+[1566818094.176][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.176][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.179][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.179][INFO]: Waiting for pending navigations...
+[1566818094.180][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.191][INFO]: Waiting for pending navigations...
+[1566818094.192][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.192][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.195][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.195][INFO]: Waiting for pending navigations...
+[1566818094.196][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.206][INFO]: Waiting for pending navigations...
+[1566818094.207][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.207][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.210][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.210][INFO]: Waiting for pending navigations...
+[1566818094.211][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.219][INFO]: Waiting for pending navigations...
+[1566818094.221][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.221][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.223][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.223][INFO]: Waiting for pending navigations...
+[1566818094.224][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.234][INFO]: Waiting for pending navigations...
+[1566818094.235][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.235][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.237][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.237][INFO]: Waiting for pending navigations...
+[1566818094.240][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.248][INFO]: Waiting for pending navigations...
+[1566818094.249][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.249][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.252][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.252][INFO]: Waiting for pending navigations...
+[1566818094.253][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.263][INFO]: Waiting for pending navigations...
+[1566818094.264][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.264][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.266][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.266][INFO]: Waiting for pending navigations...
+[1566818094.267][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.278][INFO]: Waiting for pending navigations...
+[1566818094.279][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.279][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.282][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.282][INFO]: Waiting for pending navigations...
+[1566818094.283][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.294][INFO]: Waiting for pending navigations...
+[1566818094.295][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.295][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.297][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.297][INFO]: Waiting for pending navigations...
+[1566818094.298][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.310][INFO]: Waiting for pending navigations...
+[1566818094.311][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.311][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.314][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.314][INFO]: Waiting for pending navigations...
+[1566818094.315][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.325][INFO]: Waiting for pending navigations...
+[1566818094.326][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.326][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.329][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.329][INFO]: Waiting for pending navigations...
+[1566818094.330][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.340][INFO]: Waiting for pending navigations...
+[1566818094.341][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.341][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.343][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.343][INFO]: Waiting for pending navigations...
+[1566818094.344][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.352][INFO]: Waiting for pending navigations...
+[1566818094.353][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.353][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.355][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.355][INFO]: Waiting for pending navigations...
+[1566818094.356][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.364][INFO]: Waiting for pending navigations...
+[1566818094.365][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.365][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.367][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.367][INFO]: Waiting for pending navigations...
+[1566818094.368][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.376][INFO]: Waiting for pending navigations...
+[1566818094.377][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.377][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.379][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.379][INFO]: Waiting for pending navigations...
+[1566818094.380][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.388][INFO]: Waiting for pending navigations...
+[1566818094.389][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.389][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.391][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.391][INFO]: Waiting for pending navigations...
+[1566818094.392][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.400][INFO]: Waiting for pending navigations...
+[1566818094.400][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.400][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.403][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.403][INFO]: Waiting for pending navigations...
+[1566818094.404][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.412][INFO]: Waiting for pending navigations...
+[1566818094.413][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.413][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.415][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.415][INFO]: Waiting for pending navigations...
+[1566818094.416][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.424][INFO]: Waiting for pending navigations...
+[1566818094.425][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.425][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.428][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.428][INFO]: Waiting for pending navigations...
+[1566818094.430][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.440][INFO]: Waiting for pending navigations...
+[1566818094.441][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.441][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.443][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.443][INFO]: Waiting for pending navigations...
+[1566818094.444][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.454][INFO]: Waiting for pending navigations...
+[1566818094.455][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.455][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.457][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.458][INFO]: Waiting for pending navigations...
+[1566818094.458][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.466][INFO]: Waiting for pending navigations...
+[1566818094.467][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.467][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.469][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.469][INFO]: Waiting for pending navigations...
+[1566818094.470][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.478][INFO]: Waiting for pending navigations...
+[1566818094.479][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.479][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.481][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.481][INFO]: Waiting for pending navigations...
+[1566818094.482][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.490][INFO]: Waiting for pending navigations...
+[1566818094.491][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.491][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.493][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.493][INFO]: Waiting for pending navigations...
+[1566818094.494][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.502][INFO]: Waiting for pending navigations...
+[1566818094.502][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.502][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.504][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.504][INFO]: Waiting for pending navigations...
+[1566818094.505][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.513][INFO]: Waiting for pending navigations...
+[1566818094.514][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.514][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.515][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.515][INFO]: Waiting for pending navigations...
+[1566818094.516][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.524][INFO]: Waiting for pending navigations...
+[1566818094.525][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.525][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.527][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.527][INFO]: Waiting for pending navigations...
+[1566818094.528][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.535][INFO]: Waiting for pending navigations...
+[1566818094.536][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.536][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.538][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.538][INFO]: Waiting for pending navigations...
+[1566818094.539][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.547][INFO]: Waiting for pending navigations...
+[1566818094.548][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.548][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.549][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.549][INFO]: Waiting for pending navigations...
+[1566818094.550][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.559][INFO]: Waiting for pending navigations...
+[1566818094.560][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.560][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.562][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.562][INFO]: Waiting for pending navigations...
+[1566818094.562][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.570][INFO]: Waiting for pending navigations...
+[1566818094.571][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.571][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.573][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.573][INFO]: Waiting for pending navigations...
+[1566818094.574][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.581][INFO]: Waiting for pending navigations...
+[1566818094.583][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.583][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.585][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.585][INFO]: Waiting for pending navigations...
+[1566818094.586][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.593][INFO]: Waiting for pending navigations...
+[1566818094.594][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.594][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.595][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.596][INFO]: Waiting for pending navigations...
+[1566818094.596][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.605][INFO]: Waiting for pending navigations...
+[1566818094.605][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.605][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.607][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.607][INFO]: Waiting for pending navigations...
+[1566818094.608][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.615][INFO]: Waiting for pending navigations...
+[1566818094.616][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.616][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.618][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.618][INFO]: Waiting for pending navigations...
+[1566818094.619][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.628][INFO]: Waiting for pending navigations...
+[1566818094.629][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.629][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.631][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.631][INFO]: Waiting for pending navigations...
+[1566818094.632][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.640][INFO]: Waiting for pending navigations...
+[1566818094.641][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.641][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.643][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.643][INFO]: Waiting for pending navigations...
+[1566818094.644][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.651][INFO]: Waiting for pending navigations...
+[1566818094.652][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.652][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.654][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.654][INFO]: Waiting for pending navigations...
+[1566818094.655][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.662][INFO]: Waiting for pending navigations...
+[1566818094.663][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.663][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.665][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.665][INFO]: Waiting for pending navigations...
+[1566818094.666][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.673][INFO]: Waiting for pending navigations...
+[1566818094.674][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.674][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.676][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.676][INFO]: Waiting for pending navigations...
+[1566818094.677][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.685][INFO]: Waiting for pending navigations...
+[1566818094.686][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.686][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.688][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.688][INFO]: Waiting for pending navigations...
+[1566818094.689][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.697][INFO]: Waiting for pending navigations...
+[1566818094.698][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.698][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.700][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.700][INFO]: Waiting for pending navigations...
+[1566818094.701][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.709][INFO]: Waiting for pending navigations...
+[1566818094.710][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.710][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.712][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.712][INFO]: Waiting for pending navigations...
+[1566818094.713][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.721][INFO]: Waiting for pending navigations...
+[1566818094.722][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.722][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.724][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.724][INFO]: Waiting for pending navigations...
+[1566818094.725][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.732][INFO]: Waiting for pending navigations...
+[1566818094.733][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.734][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.736][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.736][INFO]: Waiting for pending navigations...
+[1566818094.738][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.746][INFO]: Waiting for pending navigations...
+[1566818094.747][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.747][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.749][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.749][INFO]: Waiting for pending navigations...
+[1566818094.750][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.758][INFO]: Waiting for pending navigations...
+[1566818094.759][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.759][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.761][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.761][INFO]: Waiting for pending navigations...
+[1566818094.763][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.772][INFO]: Waiting for pending navigations...
+[1566818094.775][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.775][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.777][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.777][INFO]: Waiting for pending navigations...
+[1566818094.778][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.786][INFO]: Waiting for pending navigations...
+[1566818094.787][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.787][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.789][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.789][INFO]: Waiting for pending navigations...
+[1566818094.790][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.798][INFO]: Waiting for pending navigations...
+[1566818094.799][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.799][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.803][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.803][INFO]: Waiting for pending navigations...
+[1566818094.804][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.811][INFO]: Waiting for pending navigations...
+[1566818094.812][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.812][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.814][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.814][INFO]: Waiting for pending navigations...
+[1566818094.815][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.823][INFO]: Waiting for pending navigations...
+[1566818094.824][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.824][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.826][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.826][INFO]: Waiting for pending navigations...
+[1566818094.827][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.835][INFO]: Waiting for pending navigations...
+[1566818094.836][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.836][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.838][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.838][INFO]: Waiting for pending navigations...
+[1566818094.839][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.847][INFO]: Waiting for pending navigations...
+[1566818094.848][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.848][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.850][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.850][INFO]: Waiting for pending navigations...
+[1566818094.852][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.859][INFO]: Waiting for pending navigations...
+[1566818094.861][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.861][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.863][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.863][INFO]: Waiting for pending navigations...
+[1566818094.864][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.872][INFO]: Waiting for pending navigations...
+[1566818094.873][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.873][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.875][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.875][INFO]: Waiting for pending navigations...
+[1566818094.876][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.884][INFO]: Waiting for pending navigations...
+[1566818094.885][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.885][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+[1566818094.887][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] COMMAND FindElements {
+   "using": "xpath",
+   "value": "//a[text()=\"登录\"]"
+}
+[1566818094.887][INFO]: Waiting for pending navigations...
+[1566818094.888][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.896][INFO]: Waiting for pending navigations...
+[1566818094.897][INFO]: Done waiting for pending navigations. Status: ok
+[1566818094.897][INFO]: [eb5ff3e33e1fe64bb8fe2cfff573f1fe] RESPONSE FindElements [  ]
+1566818295658	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LINGMA~1\\AppData\\Local\\Temp\\rust_mozprofile.ap4n8fdEPNZo"
+1566818296126	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566818296126	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566818296127	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566818296127	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+[Child 9828, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 9828, Chrome_1566818299527	Marionette	INFO	Listening on port 4480
+1566818299790	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190814155100, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190814155100, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190814155100, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190814155100, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190814155100, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190814155100, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190814155100, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190814155100, line 79: unreachable code after return statement
+JavaScript warning: resource:///modules/UrlbarView.jsm, line 123: Array.reduce is deprecated; use Array.prototype.reduce instead
+[Parent 1380, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15492, Chrome_ChildThread] WARNJavaScript warning: https://csdnimg.cn/public/common/libs/jquery/jquery-1.9.1.min.js, line 2: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+[Parent 1380, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17612, C[Child 15308, Chr[Parent 1380, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+1566818471868	Marionette	INFO	Stopped listening on port 4480
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 13088, Chrome_ChildThr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1566819065367	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LINGMA~1\\AppData\\Local\\Temp\\rust_mozprofile.wqrsQF0qlkHX"
+1566819065859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566819065859	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566819065860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566819065860	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566819068948	Marionette	INFO	Listening on port 5401
+1566819069003	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 15008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15008, Chrome_ChildThread] W[Parent 4724, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2044, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2044, Chrome_ChildThread] WARNING: pi[Parent 4724, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 3500, C1566819106840	Marionette	INFO	Stopped listening on port 5401
+[GPU 8844, Chrome_ChildTh
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1566819130115	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\LINGMA~1\\AppData\\Local\\Temp\\rust_mozprofile.Vyp4A2DWETej"
+1566819130593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1566819130593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566819130593	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566819130594	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566819133686	Marionette	INFO	Listening on port 5528
+1566819133749	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190814155100, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190814155100, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190814155100, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190814155100, line 79: unreachable code after return statement
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+xtension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1566819283601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1566819283601	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1566819286926	Marionette	INFO	Listening on port 5827
+1566819287177	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: http://%(server)s/dummy/blocklist//buckets/monitor/collections/changes/records?_expected=%221561548844810%22 is not a valid URL..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:201:13
+
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190814155100, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190814155100, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190814155100, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190814155100, line 79: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190814155100, line 25: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/feed.js?version=20190814155100, line 53: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190814155100, line 5: unreachable code after return statement
+JavaScript warning: https://js.t.sinajs.cn/t4/apps/searchpc/js/pc/js/conf/weiboFeedList.js?version=20190814155100, line 79: unreachable code after return statement
+[Parent 17920, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10076, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10076, Chrome_ChildThrea[Child 5244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1565706750/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5244, Ch1566819384024	Marionette	INFO	Stopped listening on port 5827
+[GPU 11156, 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+Chrome_Chil
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
