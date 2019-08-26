@@ -14,16 +14,17 @@
 3. **主要功能**
 
    - 爬取微博指定时间范围内的数据。
-   
+
    - 在爬取数据过程中，如果感觉爬取时间过长，可以按下 CTRL + C 结束爬取，已爬取的内容仍会被保存下来。**只有使用 cmd 运行文件才可以实现。**
+
    - 微博登录很多时候需要输入验证码，而引入图片识别成本太大，所以该爬虫加入了手动填写验证码的方式。
-   
+
 4. **运行图片**
 
-   -  cmd 运行实例
+   - cmd 运行实例
 
-     ![weibospider1](<https://github.com/lingmacker/Graph-bed/blob/master/weibospider1.png>)
+     ![weibospider1](https://github.com/lingmacker/WeiBoSpider/blob/master/asset/weibospider1.png)
 
    - 运行结果截图
 
-     ![weibospider2](https://github.com/lingmacker/Graph-bed/blob/master/weibospider2.png)
+     ![weibospider2](https://github.com/lingmacker/WeiBoSpider/blob/master/asset/weibospider2.png)
