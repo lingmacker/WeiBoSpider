@@ -221,7 +221,7 @@ class WeiboSpider(object):
                 self.page_count = 0
 
                 # 基于设置的休眠时间，随机设置一个休眠值
-                sleep_time = random.randint(self.sleep_time, self.sleep_time + 7)
+                sleep_time = random.randint(self.sleep_time, self.sleep_time + 5)
 
                 time.sleep(sleep_time)  # 模拟用户浏览网页的时间
 
@@ -293,8 +293,8 @@ def main():
         print("正在退出....")
         sys.exit(0)
 
-    strat_time = input('请输入开始时间（如2017-12-12）：')
-    end_time = input('请输入结束时间，不输入默认为直至今日（如2017-12-12）：')
+    start_time = input('请输入开始时间（如2017-12-12-8 年-月-日-小时）：')
+    end_time = input('请输入结束时间，不输入默认为直至现在（如2017-12-12-8 年-月-日-小时）：')
     sleep_time = input('输入两个页面访问间隔时间(默认为10秒)：')
 
     print('爬取数据正在开始.......')
@@ -305,7 +305,7 @@ def main():
     else:
         sleep_time = int(sleep_time)
 
-    weibo = WeiboSpider(key_word, strat_time, end_time, sleep_time, username=username, password=password)
+    weibo = WeiboSpider(key_word, start_time, end_time, sleep_time, username=username, password=password)
     weibo.login()
 
     while 1:
